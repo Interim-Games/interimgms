@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    font-weight: bolder;
+    background-color: #4b054f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000; /* Zorgt ervoor dat de header altijd boven andere content blijft */
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+}
+
+.box {
+    margin-right: 30px; /* Optioneel, om wat ruimte tussen de items te creëren */
+}
+
+header h4{
+    margin-top: 13px;
+    color: antiquewhite;
+}
