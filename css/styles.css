@@ -13,14 +13,15 @@ header{
     padding-bottom: 20px;
     display: flex;
     align-items: center;
-    z-index: 1000; /* Zorgt ervoor dat de header altijd boven andere content blijft */
+    z-index: 1000; 
     top: 0;
     left: 0;
     padding-left: 20px;
 }
 
 .box {
-    margin-right: 30px; /* Optioneel, om wat ruimte tussen de items te creëren */
+    margin-right: 30px;
+    text-decoration: none;
 }
 
 header h4{
@@ -34,3 +35,39 @@ header h5{
     align-items: right;
 }
 
+.systems-heading{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: calc(1300px * (100 / 450));
+}
+
+.systems-heading img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-over {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    color: antiquewhite;
+    background-color: #000000;
+    padding: 1%;
+    font-size:xx-large;
+  }
+
+  footer h6{
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+.email{
+    padding: 10%;
+}
